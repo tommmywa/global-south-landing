@@ -5,7 +5,7 @@ import hotelImg from '../assets/hotel.png';
 const FeaturesSection = () => {
   return (
     <section className="section features-section" id="fleet">
-      <div className="container features-container">
+      <div className="features-container">
         <div className="features-text">
           <h2>
             For Those Who Expect More. <span className="features-subtitle-inline">Everything you need for an exceptional World Cup 2026 experience.</span>
