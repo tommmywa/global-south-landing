@@ -12,7 +12,7 @@
 }
 
 .features-text {
-  flex: 0 0 60%;
+  flex: 0 0 40%;
 }
 
 .features-text h2 {
@@ -26,7 +26,7 @@
 }
 
 .features-cards {
-  flex: 0 0 30%;
+  flex: 0 0 40%;
   display: flex;
   gap: 2rem;
 }
