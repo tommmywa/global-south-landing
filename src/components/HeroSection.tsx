@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className="hero-overlay"></div>
       </div>
 
-      <div className="container hero-content">
+      <div className="hero-content">
         <div className="hero-text-wrapper animate-fade-in">
           <h1 className="hero-title">
             Travel With<br />Comfort
