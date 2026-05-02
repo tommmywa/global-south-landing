@@ -6,13 +6,13 @@
 .features-container {
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 10%;
   width: 90%;
   margin: 0 5%;
 }
 
 .features-text {
-  flex: 0 0 35%;
+  flex: 0 0 60%;
 }
 
 .features-text h2 {
@@ -26,7 +26,7 @@
 }
 
 .features-cards {
-  flex: 1;
+  flex: 0 0 30%;
   display: flex;
   gap: 2rem;
 }
