@@ -1,5 +1,6 @@
 import './ExperienceSection.css';
 import { MapPin, Users, Shield } from 'lucide-react';
+import mapImg from '../assets/map.png';
 
 const ExperienceSection = () => {
   return (
@@ -8,7 +9,7 @@ const ExperienceSection = () => {
         
         <div className="experience-visual">
           <div className="map-wrapper">
-            <img src="/map.png" alt="World Cup Host Cities Map" className="map-image" />
+            <img src={mapImg} alt="World Cup Host Cities Map" className="map-image" />
           </div>
         </div>
 

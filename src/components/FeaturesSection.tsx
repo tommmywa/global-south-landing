@@ -1,4 +1,6 @@
 import './FeaturesSection.css';
+import chauffeurImg from '../assets/chauffeur.png';
+import hotelImg from '../assets/hotel.png';
 
 const FeaturesSection = () => {
   return (
@@ -18,7 +20,7 @@ const FeaturesSection = () => {
               <p>Premium limousine and executive car services with professional chauffeurs. Ensure seamless travel to match venues, and luxury city tours safely.</p>
             </div>
             <div className="feature-image-wrapper">
-              <img src="/chauffeur.png" alt="Elite Transportation" className="feature-image" />
+              <img src={chauffeurImg} alt="Elite Transportation" className="feature-image" />
             </div>
           </div>
           
@@ -28,7 +30,7 @@ const FeaturesSection = () => {
               <p>Exclusive hotel packages for World Cup 2026. Stay in luxury hotels and private residences near stadiums and key matchday locations.</p>
             </div>
             <div className="feature-image-wrapper">
-              <img src="/hotel.png" alt="Premium Accommodations" className="feature-image" />
+              <img src={hotelImg} alt="Premium Accommodations" className="feature-image" />
             </div>
           </div>
         </div>
