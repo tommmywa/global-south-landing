@@ -1,4 +1,5 @@
 import { Globe } from 'lucide-react';
+import logoSvg from '../assets/logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -12,9 +13,7 @@ const Navbar = () => {
         </ul>
 
         <div className="navbar-logo">
-          <div className="logo-circle">
-            <span>GS</span>
-          </div>
+          <img src={logoSvg} alt="Global South Logo" className="logo-image" />
         </div>
 
         <div className="nav-actions">

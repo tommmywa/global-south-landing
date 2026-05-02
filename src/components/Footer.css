@@ -76,11 +76,11 @@
   margin-bottom: 4rem;
 }
 
-.footer-brand h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 1px;
+.footer-logo-image {
+  height: 32px;
+  width: auto;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .brand-desc {

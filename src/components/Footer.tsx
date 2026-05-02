@@ -1,6 +1,7 @@
 import './Footer.css';
 import { ArrowRight } from 'lucide-react';
 import heroImg from '../assets/hero.png';
+import logoSvg from '../assets/logo.svg';
 
 const Footer = () => {
   return (
@@ -28,7 +29,7 @@ const Footer = () => {
       <div className="footer-main">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <h3>GLOBALSOUTH <span className="text-primary">LIMO</span></h3>
+            <img src={logoSvg} alt="Global South Logo" className="footer-logo-image" />
             <p className="brand-desc">Premium transportation and luxury accommodations for the discerning traveler.</p>
             <div className="social-links">
               <a href="#">FB</a>

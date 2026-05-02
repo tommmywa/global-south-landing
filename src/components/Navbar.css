@@ -39,16 +39,10 @@
   transform: translateX(-50%);
 }
 
-.logo-circle {
-  width: 40px;
+.logo-image {
   height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 1rem;
+  width: auto;
+  display: block;
 }
 
 .nav-actions {
