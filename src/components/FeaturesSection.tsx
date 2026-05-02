@@ -16,7 +16,7 @@ const FeaturesSection = () => {
           <div className="feature-card">
             <div className="feature-card-content">
               <h3>Elite Transportation</h3>
-              <p>Premium limousine and executive car services with professional chauffeurs. Ensure seamless travel to match venues, and luxury city tours safely.</p>
+              <p>Premium limousine and executive car services with professional chauffeurs. Airport transfers, event transportation, and hourly services available.</p>
             </div>
             <div className="feature-image-wrapper">
               <img src={chauffeurImg} alt="Elite Transportation" className="feature-image" />
