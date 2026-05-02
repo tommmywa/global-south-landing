@@ -1,9 +1,7 @@
 .hero-section {
   position: relative;
-  height: 90vh;
-  min-height: 600px;
-  margin: 2vh 10%;
-  border-radius: 24px;
+  height: 100vh;
+  min-height: 800px;
   display: flex;
   align-items: flex-end;
   padding-bottom: 6rem;
