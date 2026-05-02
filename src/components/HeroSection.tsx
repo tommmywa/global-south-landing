@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import heroImg from '../assets/hero.png';
 import './HeroSection.css';
 import { ArrowRight } from 'lucide-react';
 
@@ -9,7 +8,7 @@ const HeroSection = () => {
       <Navbar />
       
       <div className="hero-background">
-        <img src={heroImg} alt="Luxury car at stadium" className="hero-image" />
+        <img src="/hero.png" alt="Luxury car at stadium" className="hero-image" />
         <div className="hero-overlay"></div>
       </div>
 

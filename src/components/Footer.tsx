@@ -1,13 +1,12 @@
 import './Footer.css';
 import { ArrowRight } from 'lucide-react';
-import heroImg from '../assets/hero.png';
 
 const Footer = () => {
   return (
     <footer className="footer dark-mode">
       <div className="footer-cta-section">
         <div className="footer-background">
-          <img src={heroImg} alt="Luxury Car" className="footer-image" />
+          <img src="/hero.png" alt="Luxury Car" className="footer-image" />
           <div className="footer-overlay"></div>
         </div>
 
